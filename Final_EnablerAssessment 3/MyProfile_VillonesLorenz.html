@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villones Lorenz Profile Website</title>
+    <link rel="icon" type="image/icon" href="/images/boracay.jpg">
+</head>
+<body>
+    <header>
+        <p>Lorenz Villones</p>
+    </header>
+    <main>
+        <section class="left_side" aria-=labelled="heading_picture">
+            <h2 id="heading_picture">My Picture</h2>
+                <img src="/images/xmas_outfit.jpeg" alt="Me at a Senior HighSchool Christmas Party at DLSUD"
+                width="400" height="450">   
+        </section>
+        <section class="right_side">
+            <h1>My Profile Website</h1>
+            <h2>--Introduction🪪--</h2>
+            <p>
+                My name is Lorenz Villones and you're viewing my profile website 
+                that contains all about me, my interest and my goals.
+            </p>
+            <h2>--About Me🫠--</h2>
+            <p>Heya 👋, I'm a 💻 1st Year BSIT Student currently enrolled in DLSU-D.
+                I'm a 19 year old student who is a bit shy when it comes to Web Development.
+                I will try to do my best :3
+            </p>
+            <h2>--My Interest💖--</h2>
+            <ul>
+                <li>Listening to OPM🎵</li>
+                <li>Playing Video Games🎮</li>
+                <li>Learning coding and programming💻</li>
+                <li>Sleeping😴💤</li>
+            </ul>
+
+            <h2>--My Skills & Goals✨--</h2>
+            <ul>
+                <li>Write a Software Project in Java</li>
+                <li>Create a Light Novel Video Game using Python with RenPy Framework</li>
+                <li>Writing Websites using HTML, CSS & Javascript</li>
+                <li>Writing Programs using Python</li>
+            </ul>
+
+            <h2>--Websites I learn Programming🌐</h2>
+            <p><a href="https://www.freecodecamp.org" target="_blank" rel="noopener noreferrer">Learn at FreeCodeCamp</a>🌐</p>
+            <p><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">Learn at W3SCHOOL</a>🌐</p>
+
+            <h2>Find Me</h2>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/lorenz.villones" target="_blank" rel="noopener noreferrer" aria-label="Lorenz Villones at Facebook">
+                    <img src="/images/facebook.png" alt="facebook logo" width="40" height="40">
+                </a></li>
+                <li><a href="https://github.com/villonesdevv15" target="_blank" rel="noopener noreferrer" aria-label="Lorenz Villones at Github">
+                <img src="/images/github.png" alt="github logo" width="40" height="40">
+                </a></li>
+            </ul>
+
+        </section>
+    </main>
+    <footer>
+            <p>2026 LORENZ VILLONES |  My Profile Website :P</p>
+    </footer>
+    <!-- Hi po Ma'am ginawa konapong isang file yung css which is embedded napo sa HTML
+     instead of external stylesheet. Thank you po for reading :) @Lorenz Villones -->
+    <style>
+    body {
+    margin: 0;
+    font-family: "Patrick Hand", cursive;
+    color: #3b2630;
+    background: #fff8f5;
+    }
+
+    header {
+        background: linear-gradient(90deg, #7a2345, #c65370);
+        padding: 1.6rem 1rem;
+        font-family: "Caudex", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: .15em;
+    }
+    header p { margin: 0; max-width: 1100px; margin-inline: auto; padding-left: 6%; }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        min-height: 100vh;
+        }
+
+    .left_side {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem 1rem;
+        background:
+            radial-gradient(circle at 10% 15%, rgba(255, 255, 255, .45), transparent 30%),
+            radial-gradient(circle at 90% 10%, rgba(255, 214, 224, .55), transparent 35%),
+            radial-gradient(circle at 85% 90%, rgba(255, 255, 255, .35), transparent 30%),
+            radial-gradient(circle at 15% 90%, rgba(255, 214, 224, .45), transparent 35%),
+            #d8879b;
+    }
+    .left_side h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: .15em;
+        font-size: 16px;
+        color: #fff;
+        text-shadow: 0 1px 4px rgba(0,0,0,.5);
+        margin: 0 0 1rem;
+    }
+    .left_side img {
+        width: 100%;
+        max-width: 431px;
+        height: auto;
+        border-radius: 25px;
+        box-shadow: 16px 18px 20px rgba(85, 22, 34, .3);
+    }
+
+    .right_side {
+        padding: 3rem 2.5rem 3rem 4rem;
+        background: #fff8f5;
+    }
+    .right_side h1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 1.1;
+        letter-spacing: .12em;
+        margin: 0 0 1.5rem;
+        text-transform: uppercase;
+    }
+    .right_side h2 {
+        font-family: "Jost", sans-serif;
+        font-size: 18px;
+        letter-spacing: .15em;
+        color: #9c3455;
+        margin: 1.6rem 0 .4rem;
+        text-transform: uppercase;
+    }
+    </style>
+</body>
+</html>
