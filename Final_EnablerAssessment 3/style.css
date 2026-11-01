@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: "Patrick Hand", cursive;
+    color: #3b2630;
+    background: #fff8f5;
+}
+
+header {
+    background: linear-gradient(90deg, #7a2345, #c65370);
+    padding: 1.6rem 1rem;
+    font-family: "Caudex", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .15em;
+}
+header p { margin: 0; max-width: 1100px; margin-inline: auto; padding-left: 6%; }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+    }
+
+.left_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    background:
+        radial-gradient(circle at 10% 15%, rgba(255, 255, 255, .45), transparent 30%),
+        radial-gradient(circle at 90% 10%, rgba(255, 214, 224, .55), transparent 35%),
+        radial-gradient(circle at 85% 90%, rgba(255, 255, 255, .35), transparent 30%),
+        radial-gradient(circle at 15% 90%, rgba(255, 214, 224, .45), transparent 35%),
+        #d8879b;
+}
+.left_side h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .15em;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: 0 1px 4px rgba(0,0,0,.5);
+    margin: 0 0 1rem;
+}
+.left_side img {
+    width: 100%;
+    max-width: 431px;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 16px 18px 20px rgba(85, 22, 34, .3);
+}
+
+.right_side {
+    padding: 3rem 2.5rem 3rem 4rem;
+    background: #fff8f5;
+}
+.right_side h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1.1;
+    letter-spacing: .12em;
+    margin: 0 0 1.5rem;
+    text-transform: uppercase;
+}
+.right_side h2 {
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    letter-spacing: .15em;
+    color: #9c3455;
+    margin: 1.6rem 0 .4rem;
+    text-transform: uppercase;
+}
